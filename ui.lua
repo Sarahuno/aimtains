@@ -19,8 +19,6 @@ end
 function UIlib.new(title)
 	local self = setmetatable({}, UIlib)
 
-	local player = game.Players.LocalPlayer
-	local playerGui = player:WaitForChild("PlayerGui")
 
 	self.ScreenGui = create("ScreenGui", {
 		Name = "CustomUILib",
