@@ -141,7 +141,7 @@ function UIlib.new(title)
 
 	UIS.InputBegan:Connect(function(input, gameProcessed)
 		if gameProcessed then return end
-		if input.KeyCode == Enum.KeyCode.RightAlt then
+		if input.KeyCode == Enum.KeyCode.LeftControl then
 			if closed then
 				self.MainFrame.ClipsDescendants = false
 				
